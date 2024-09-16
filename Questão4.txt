@@ -1,0 +1,1 @@
+a) 1, 3, 5, 7, ___   Sequência de numeros ímpares, o próximo número é 9

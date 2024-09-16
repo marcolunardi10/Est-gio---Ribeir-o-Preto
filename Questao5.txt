@@ -1,0 +1,31 @@
+Primeiro, eu desligaria todos os 3 interruptores. Em seguida, seguiria este plano:
+
+1.Ligo o primeiro interruptor e vou para a primeira sala verificar se a lâmpada está acesa:
+    Se a lâmpada estiver acesa, já sei que o primeiro interruptor controla a lâmpada dessa sala.
+    Se a lâmpada estiver apagada, volto para a sala dos interruptores, sabendo que o primeiro interruptor não controla essa lâmpada.
+
+2. Ligo o segundo interruptor e vou para a segunda sala verificar:
+
+    Se a lâmpada da segunda sala estiver acesa, então:
+
+        Se na primeira ida a lâmpada da primeira sala estava acesa, já sei que:
+            O primeiro interruptor controla a lâmpada da primeira sala,
+            O segundo interruptor controla a lâmpada da segunda sala,
+            E o terceiro interruptor controla a lâmpada da terceira sala.
+
+        Se na primeira ida a lâmpada da primeira sala estava apagada, então sei que:
+            O primeiro interruptor controla a lâmpada da terceira sala,
+            O segundo interruptor controla a lâmpada da segunda sala,
+            E o terceiro interruptor controla a lâmpada da primeira sala.
+
+    Se a lâmpada da segunda sala estiver apagada, então:
+
+        Se na primeira ida a lâmpada da primeira sala estava acesa, sei que:
+            O primeiro interruptor controla a lâmpada da primeira sala,
+            O segundo interruptor controla a lâmpada da terceira sala,
+            E o terceiro interruptor controla a lâmpada da segunda sala.
+
+        Se na primeira ida a lâmpada da primeira sala estava apagada, então:
+            O primeiro interruptor controla a lâmpada da terceira sala,
+            O segundo interruptor controla a lâmpada da primeira sala,
+            E o terceiro interruptor controla a lâmpada da segunda sala.
